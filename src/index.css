@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color:#fff;
+}
+
+.navbar-container.dark-bg {
+  background-color:#f6f6f6
+}
+::-webkit-scrollbar{
+	width: 3px;
+  background-color: rgba(255, 255, 255, 0.87);
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #202123;
+	height: 17px;
+  }
